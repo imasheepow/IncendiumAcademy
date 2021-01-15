@@ -117,11 +117,12 @@
   padding-left: 10%;
 }
 
-.main-header {
-  border-top: 3px solid $border-color;
+// Adds a divider to site nav when it's a toggle on mobile
+.site-nav {
+  border-bottom: 3px solid $border-color;
 
   @include mq(md) {
-    border-top: none
+    border-bottom: none
   }
 }
 
