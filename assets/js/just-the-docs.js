@@ -37,17 +37,19 @@ function initNav() {
   const mainHeader = document.getElementById('main-header');
   const menuButton = document.getElementById('menu-button');
 
-  jtd.addEvent(menuButton, 'click', function(e){
-    e.preventDefault();
+  if(menuButton) {
+    jtd.addEvent(menuButton, 'click', function(e){
+      e.preventDefault();
 
-    if (menuButton.classList.toggle('nav-open')) {
-      siteNav.classList.add('nav-open');
-      mainHeader.classList.add('nav-open');
-    } else {
-      siteNav.classList.remove('nav-open');
-      mainHeader.classList.remove('nav-open');
-    }
-  });
+      if (menuButton.classList.toggle('nav-open')) {
+        siteNav.classList.add('nav-open');
+        mainHeader.classList.add('nav-open');
+      } else {
+        siteNav.classList.remove('nav-open');
+        mainHeader.classList.remove('nav-open');
+      }
+    });
+  }
 }
 // Site search
 
