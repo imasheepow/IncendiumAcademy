@@ -1,6 +1,7 @@
 @charset "UTF-8";
 /*! normalize.scss v0.1.0 | MIT License | based on git.io/normalize */
 /** 1. Set default font family to sans-serif. 2. Prevent iOS text size adjust after orientation change, without disabling user zoom. */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
 html { font-family: sans-serif; /* 1 */ -ms-text-size-adjust: 100%; /* 2 */ -webkit-text-size-adjust: 100%; /* 2 */ }
 
 /** Remove default margin. */
@@ -2323,8 +2324,8 @@ figure.highlight pre, figure.highlight code { padding: 0; margin: 0; border: 0; 
 
 .column { display: flex; flex-direction: column; align-items: end; padding-left: 10%; }
 
-.main-header { border-top: 3px solid #44434d; }
-@media (min-width: 56.25rem) { .main-header { border-top: none; } }
+.site-nav { border-bottom: 3px solid #44434d; }
+@media (min-width: 56.25rem) { .site-nav { border-bottom: none; } }
 
 .home .main-header { display: block; }
 .home .main-header > :not(:first-child) { display: none; }
@@ -2389,8 +2390,9 @@ figure.highlight pre, figure.highlight code { padding: 0; margin: 0; border: 0; 
 
 .modal-content { text-align: center; background-color: #302d36; position: relative; border-radius: 4px; box-shadow: 0 4px 8px 4px rgba(0, 0, 0, 0.2); display: flex; width: 80%; min-height: 50%; }
 @media (min-width: 56.25rem) { .modal-content { width: 50%; min-height: 70%; } }
-.modal-content .close { color: #e6e1e8; position: absolute; top: 1rem; right: 1rem; font-size: 32px; line-height: 1rem; z-index: 2; cursor: pointer; }
-.modal-content .errormsg { color: red; word-wrap: break-word; overflow-wrap: break-word; max-width: 200px; }
+.modal-content .close { color: white; position: absolute; top: 0.75rem; right: 0.75rem; font-size: 32px; line-height: 1rem; z-index: 2; cursor: pointer; }
+.modal-content .close:hover { color: #e6e1e8; }
+.modal-content .errormsg { color: red; margin-top: 0.25rem; word-wrap: break-word; overflow-wrap: break-word; max-width: 200px; }
 .modal-content .modal-left { display: none; flex-grow: 1; }
 @media (min-width: 56.25rem) { .modal-content .modal-left { display: initial; } }
 .modal-content .modal-left img { width: 100%; height: 100%; object-fit: cover; border-radius: 4px 0 0 4px; }
@@ -2398,13 +2400,12 @@ figure.highlight pre, figure.highlight code { padding: 0; margin: 0; border: 0; 
 @media (min-width: 56.25rem) { .modal-content .modal-right { width: auto; } }
 .modal-content .input-group { display: flex; flex-flow: column; text-align: left; margin-top: 0.75rem; max-width: 100%; }
 .modal-content .input-group label { font-weight: bold; }
-.modal-content .input-group input { background-color: #e6e1e8; border: none; border-radius: 4px; font-size: 16px; padding: 0.25rem 0.5rem; }
-.modal-content button { padding: 0.25rem 0.5rem; border-radius: 4px; font-size: 16px; border: none; outline: none; background-color: #959396; width: 100%; margin-top: 1rem; color: black; }
-.modal-content button:hover { background-color: #302d36; }
+.modal-content .input-group input { background-color: #e6e1e8; border: none; border-radius: 4px; font-size: 16px !important; padding: 0.25rem 0.5rem; }
+@media (min-width: 31.25rem) { .modal-content .input-group input { font-size: 18px !important; } }
 .modal-content .separator { display: flex; flex-flow: row; align-items: center; justify-content: center; margin: 0.75rem 0; }
-.modal-content .separator hr { margin: 0 0.5rem; width: 100%; }
-.modal-content .social-logins button { width: 100%; display: flex; align-items: center; background: white; border: 1px solid black; margin-top: 2rem; cursor: pointer; }
-.modal-content .social-logins button .logo { width: 24px; height: 24px; margin-right: 0.75rem; }
+.modal-content .separator hr { height: 2px; margin: 0 0.5rem; width: 100%; }
+.modal-content .social-logins button { display: flex; align-items: center; font-family: "Roboto", sans-serif; }
+.modal-content .social-logins button .logo { width: 1.5em; height: 1.5em; margin-right: 0.75rem; }
 
 .video-bg { background-color: #000000; }
 
