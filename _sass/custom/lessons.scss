@@ -3,3 +3,13 @@ mjx-container {
   overflow-y: hidden;
   max-width: 100%;
 }
+
+details > summary {
+  color: #2aa198;
+}
+details{
+    padding-left:1%;
+    border-left: 2px solid #F3715B;
+    height: auto;
+    background-color: #e7ebef;
+}
