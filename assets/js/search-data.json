@@ -101,65 +101,65 @@
     "url": "/content/physics/",
     "relUrl": "/content/physics/"
   },"17": {
-    "doc": "Rates and Kinetics",
-    "title": "Rates and Kinetics",
-    "content": "This unit is critical to understanding the mechanisms behind chemical reactions. Rates and Kinetics are the study of the rates of reactions, and the different factors that affect it. If thermodynamics is about the direction of a chemical process, rates and kinetics can be seen as the time it takes to complete. ",
-    "url": "/content/chemistry/physical-chemistry/rates-kinetics/",
-    "relUrl": "/content/chemistry/physical-chemistry/rates-kinetics/"
-  },"18": {
-    "doc": "Physical Chemistry",
-    "title": "Physical Chemistry",
-    "content": "The Physical Chemistry section explore the applications of the theories seen in physics within chemical systems. Because of the strong crossover between physics, some content here may be similar to material in the physics catalogue. ",
-    "url": "/content/chemistry/physical-chemistry/",
-    "relUrl": "/content/chemistry/physical-chemistry/"
-  },"19": {
-    "doc": "Home",
-    "title": "Home",
-    "content": "Welcome to our chemistry guide. ",
-    "url": "/content/chemistry/",
-    "relUrl": "/content/chemistry/"
-  },"20": {
     "doc": "Circle Geometry",
     "title": "Circle Geometry",
     "content": " ",
     "url": "/content/math/geometry/circle-geometry/",
     "relUrl": "/content/math/geometry/circle-geometry/"
-  },"21": {
+  },"18": {
     "doc": "Geometry",
     "title": "Geometry",
     "content": " ",
     "url": "/content/math/geometry/",
     "relUrl": "/content/math/geometry/"
-  },"22": {
-    "doc": "Systems of Equations",
-    "title": "Systems of Equations",
-    "content": " ",
-    "url": "/content/math/algebra/system-of-equations/",
-    "relUrl": "/content/math/algebra/system-of-equations/"
-  },"23": {
-    "doc": "Sequences and Series",
-    "title": "Sequences and Series",
-    "content": " ",
-    "url": "/content/math/algebra/sequences-and-series/",
-    "relUrl": "/content/math/algebra/sequences-and-series/"
-  },"24": {
+  },"19": {
     "doc": "Functional Equations",
     "title": "Functional Equations",
     "content": " ",
     "url": "/content/math/algebra/functional-equations/",
     "relUrl": "/content/math/algebra/functional-equations/"
-  },"25": {
+  },"20": {
+    "doc": "Systems of Equations",
+    "title": "Systems of Equations",
+    "content": " ",
+    "url": "/content/math/algebra/system-of-equations/",
+    "relUrl": "/content/math/algebra/system-of-equations/"
+  },"21": {
+    "doc": "Sequences and Series",
+    "title": "Sequences and Series",
+    "content": " ",
+    "url": "/content/math/algebra/sequences-and-series/",
+    "relUrl": "/content/math/algebra/sequences-and-series/"
+  },"22": {
     "doc": "Algebra",
     "title": "Algebra",
     "content": " ",
     "url": "/content/math/algebra/",
     "relUrl": "/content/math/algebra/"
-  },"26": {
+  },"23": {
     "doc": "Home",
     "title": "Home",
     "content": " ",
     "url": "/content/math/",
     "relUrl": "/content/math/"
+  },"24": {
+    "doc": "Rates and Kinetics",
+    "title": "Rates and Kinetics",
+    "content": "This unit is critical to understanding the mechanisms behind chemical reactions. Rates and Kinetics are the study of the rates of reactions, and the different factors that affect it. If thermodynamics is about the direction of a chemical process, rates and kinetics can be seen as the time it takes to complete. ",
+    "url": "/content/chemistry/physical-chemistry/rates-kinetics/",
+    "relUrl": "/content/chemistry/physical-chemistry/rates-kinetics/"
+  },"25": {
+    "doc": "Physical Chemistry",
+    "title": "Physical Chemistry",
+    "content": "The Physical Chemistry section explore the applications of the theories seen in physics within chemical systems. Because of the strong crossover between physics, some content here may be similar to material in the physics catalogue. ",
+    "url": "/content/chemistry/physical-chemistry/",
+    "relUrl": "/content/chemistry/physical-chemistry/"
+  },"26": {
+    "doc": "Home",
+    "title": "Home",
+    "content": "Welcome to our chemistry guide. ",
+    "url": "/content/chemistry/",
+    "relUrl": "/content/chemistry/"
   },"27": {
     "doc": "Injectivity/Surjectivity/Bijectivity and Involutions",
     "title": "Injectivity/Surjectivity/Bijectivity and Involutions",
