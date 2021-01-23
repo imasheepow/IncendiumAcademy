@@ -2,3 +2,9 @@
   @include fs-8;
   font-weight: 600;
 }
+
+h1,
+.text-alpha {
+  @include fs-10;
+  font-weight: 300;
+}
