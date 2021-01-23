@@ -1,0 +1,127 @@
+.nav-list-item > a {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 100%;
+  overflow: hidden;
+}
+
+.nav-list .nav-list-item .nav-list-progress-indicator {
+  display: none;
+  width: $nav-list-item-height-sm;
+  height: $nav-list-item-height-sm;
+  padding: #{$nav-list-item-height-sm / 2.5};
+  position: absolute;
+  left: -#{$nav-list-item-height-sm / 2};
+
+  @include mq(md) {
+    display: block;
+    width: $nav-list-item-height;
+    height: $nav-list-item-height;
+    padding: #{$nav-list-item-height / 3};
+    left: 0;
+  }
+
+  .progress {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: grey;
+
+    &.in-progress {
+      background: blue;
+    }
+    &.complete { 
+      background: green;
+    }
+  }
+}
+
+.nav-list .nav-list-item .nav-list-item .nav-list-item .nav-list-progress-indicator {
+  display: block;
+}
+.nav-list .nav-list-item .nav-list-item .nav-list-item:not(:first-child) .nav-list-progress-indicator .progress::before {
+  content: "";
+  margin: 0;
+  padding: 0;
+  width: 2px;
+  height: #{$nav-list-item-height-sm / 2};
+  position: absolute;
+  bottom: 50%;
+  left: calc(50% - 1px);
+  background: inherit;
+}
+.nav-list .nav-list-item .nav-list-item .nav-list-item:not(:last-child) .nav-list-progress-indicator .progress::after {
+  content: "";
+  margin: 0;
+  padding: 0;
+  width: 2px;
+  height: #{$nav-list-item-height-sm / 2};
+  position: absolute;
+  top: 50%;
+  left: calc(50% - 1px);
+  background: inherit;
+}
+
+@include mq(md) {
+
+  /* Line before indicator */
+  .nav-list .nav-list-item:not(:first-child) .nav-list-progress-indicator .progress::before,
+  .nav-list .nav-list-item.active .nav-list-progress-indicator .progress::before {
+    content: "";
+    margin: 0;
+    padding: 0;
+    width: 2px;
+    height: #{$nav-list-item-height / 2};
+    position: absolute;
+    bottom: 50%;
+    left: calc(50% - 1px);
+    background: inherit;
+  }
+
+  /* Line after indicator */
+  .nav-list .nav-list-item:not(:last-child) .nav-list-progress-indicator .progress::after,
+  .nav-list .nav-list-item.active > .nav-list-progress-indicator .progress::after {
+    content: "";
+    margin: 0;
+    padding: 0;
+    width: 2px;
+    height: #{$nav-list-item-height / 2};
+    position: absolute;
+    top: 50%;
+    left: calc(50% - 1px);
+    background: inherit;
+  }
+
+  /* Remove line before first indicator */
+  .nav-list:first-child > .nav-list-item.active:first-child > .nav-list-progress-indicator .progress::before {
+    content: none;
+  }
+
+  /* Remove line after last indicator */
+  .nav-list:last-child .nav-list-item.active:last-child .nav-list:last-child .nav-list:last-child .nav-list-item.active:last-child > .nav-list-progress-indicator .progress::after {
+    content: none;
+  }
+
+  /* Rotate line before indicator */
+  .nav-list .nav-list-item.active > .nav-list .nav-list-item:first-child > .nav-list-progress-indicator .progress::before {
+    height: #{$nav-list-item-height / 1.5};
+    transform-origin: 50% 100%;
+    transform: rotate(-35deg);
+  }
+
+  /* Rotate line after indicator */
+  .nav-list .nav-list-item.active:not(:last-child) > .nav-list .nav-list-item:last-child:not(.active) > .nav-list-progress-indicator .progress::after,
+  .nav-list .nav-list-item.active:not(:last-child) > .nav-list .nav-list-item:last-child:first-child > .nav-list-progress-indicator .progress::after {
+    height: #{$nav-list-item-height / 1.5};
+    transform-origin: 50% 0;
+    transform: rotate(35deg);
+  }
+
+  /* Rotate line after indicator more */
+  .nav-list > .nav-list-item.active > .nav-list > .nav-list-item.active:last-child .nav-list-item:last-child > .nav-list-progress-indicator .progress::after {
+    height: #{$nav-list-item-height / 1.1};
+    transform: rotate(55deg);
+  }
+
+}
