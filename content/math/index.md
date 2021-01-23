@@ -1,5 +1,7 @@
 ---
 layout: default
-title: Home
+title: Math
 nav_order: 0
+nav_exclude: true
 ---
+Welcome to our math guide.
