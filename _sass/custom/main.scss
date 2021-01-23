@@ -39,7 +39,7 @@
 .image-txt-container {
   display: flex;
   align-items: center;
-  padding: 7% 14%;
+  padding: 4% 14%;
 }
 
 .left {
@@ -115,6 +115,12 @@
     margin-right: 10%;
     width: 30%;
     height: 30%;
+
+    @include mq(md) {
+      margin-right: 25%;
+      width: 35%;
+      height: 35%;
+    }
   }
 }
 
@@ -180,7 +186,6 @@
 
 .site-logo {
   background-position: left center;
-
   // @include mq(md) {
   //   background-position: right center;
   // }

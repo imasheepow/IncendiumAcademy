@@ -54,10 +54,9 @@ In a geometric sequence, $$t_3=20$$ and $$t_6=1280$$. What is the first term?
           \therefore a &=5/4
         \end{align*}
         $$
-        $$\therefore$$ the first term is 5/4.
+        $\therefore$ the first term is 5/4.
     </p>
     <b>QED</b>
-    <hr>
 </details>
 
 ### Example 2
@@ -82,7 +81,6 @@ Find the first term and common ratio of each geometric sequence with the followi
     $\therefore a = \frac{1}{3}$ and $r=\frac{1}{3}$.
     </p>
     <b>QED</b>
-    <hr>
 </details>
 
 ## 2. Geometric Mean
@@ -101,7 +99,7 @@ $$
 
 In fact, we can extend this theorem. Since all terms are evenly spaced by a ratio $r$, 
 
-$t_a \cdot t_b = t_c \cdot t_d$, if $a+b = c+d$.
+$$t_a \cdot t_b = t_c \cdot t_d$$, only if $a+b = c+d$.
 
 ### Example 1
 Find integer(s) $x$ so that $x, x+4,$ and $4x+10$ form a geometric sequence.
@@ -116,7 +114,6 @@ Find integer(s) $x$ so that $x, x+4,$ and $4x+10$ form a geometric sequence.
     Since $x$ must be integer, $\therefore x=2$.
     </p>
     <b>QED</b>
-    <hr>
 </details>
 
 ## 3. Recursive Formula
@@ -140,31 +137,11 @@ $$
 ## Worked Contest Problems
 
 Below we work through notable problems that have appeared on past contests. 
-Attempt these on your own first, and only reference the solutions if you're really stuck.
+Attempt these on your own first, and only reference the solutions if you're stuck.
 
-### Euclid 
+### Simpler Problems
 
-##### 2015 7b
-
-The numbers $a_1, a_2, a_3,\ldots$ form an arithmetic sequence with $a_1 \neq a_2$. 
-The three numbers $a_1, a_2, a_6$ form a geometric sequence in that order. 
-Determine all possible positive integers $k$ for which the three numbers $a_1$, $a_4$, $a_k$ also form a geometric sequence in that order.
-
-<details>
-    <summary> Solution </summary>
-    <p>
-    Since $a1, a2, a6$ form a geometric sequence, we can apply the geometric mean:
-    $$
-    \begin{align*}
-        \frac{a_2}{a_1}&=\frac{a_6}{a_2} \\
-        (a_2)^2 &= a_1 a_6
-    \end{align*}
-    $$
-    </p>
-</details>
-
-
-##### 2014 6b
+##### Euclid 2014 6b
 
 The geometric sequence with $n$ terms $t_1, t_2, \ldots, t_{n-1}, t_n$, has $t_1 t_n = 3$. 
 Also, the product of all $n$ terms equals $59049$. Determine the values of $n$.
@@ -172,7 +149,7 @@ Also, the product of all $n$ terms equals $59049$. Determine the values of $n$.
 <details>
     <summary> Solution </summary>
     <p>
-    Here's a scenarion where I'd say brute forcing actually works. 
+    Here's a scenario where I'd say brute forcing actually works. 
     <br>
     Evaluating: 
     $$
@@ -204,11 +181,11 @@ Also, the product of all $n$ terms equals $59049$. Determine the values of $n$.
     We can further raise both sides to the $\frac{1}{2}$ power, getting;
     $$
     \begin{align*}
-        (a^{2n} r^{n(n-1)})^{\frac{1}{2}} &= (3^n)^\frac{1}{2}\\
-        (a^n r^{\frac{1}{2}(n)(n-1)} &= 3^{\frac{n}{2}} \;\;\; (3)
+        (a^{2n} r^{n(n-1)})^{\frac{1}{2}} &= (3^n)^\frac{1}{2}\\\\
+        (a^n r^{\frac{1}{2}(n)(n-1)}) &= 3^{\frac{n}{2}} \;\;\;\;\;\;\;\;\; (3)
     \end{align*}
     $$
-    Since $(3) = (1)$, we can conclude $3^\frac{n}{2} = 59049 = 3^10$
+    Since $(3) = (1)$, we can conclude $3^\frac{n}{2} = 59049 = 3^{10}$
     $$
     \therefore n = 2 \cdot 10 = 20.
     $$
@@ -216,29 +193,87 @@ Also, the product of all $n$ terms equals $59049$. Determine the values of $n$.
     </p>
 </details>
 
-##### 2010 5b
+##### Euclid 2010 5b
 
-A geometric sequence has 20 terms. 
-
+A geometric sequence has 20 terms.
 The sum of its first two terms is 40.
-
 The sum of its first three terms is 76.
-
 The sum of its first four terms is 130.
-
 Determine how many of the terms in the sequence are integers.
 
 <details>
     <summary> Solution </summary>
     <p>
-        
+    You can find out what the third and fourth terms are, by taking the difference between the first two and first three terms; and the first three and first four terms respectively.
+    $\therefore$ the third term is $76-40=36$ and the fourth term is $130-76=54$.
+    </p>
+    <p>
+    We can then find the common ratio, by dividing these numbers.
+    $$\therefore r=\frac{54}{36}=\frac{3}{2}$$
+    </p>
+    <p>
+    Next, we want to find the first term of the sequence, so that we can derive the general term.
+    To do this, we simply divide by $\frac{3}{2}$ from the third term twice. 
+    $$
+    \begin{align*}
+        t_1 &= 36 \cdot \frac{2}{3} \cdot \frac{2}{3}\\
+        \therefore t_1 &= 16.
+    \end{align*}
+    $$  
+    $$
+    \therefore t_n = 2^4 (\frac{3}{2})^{(n-1)}.
+    $$
+    </p>
+    <p>
+    Recall that the question asked for the number of integers in the sequence. By observing the general term, we can see that values of $n>5$ will yield a fractional term.
+    </p>
+    <p>
+    Therefore, there will be 5 integers in this sequence.
     </p>
 </details>
 
-##### 2009 9a
+### Harder Problems
 
-### AMC 10
+Harder problems often incorporate other math topics, like logarithms, systems of equations, etc.
+##### Euclid 2009 9a
+If $\log_2 x, (1 + \log_4 x)$, and $\log_8 4x$ are consecutive terms of a geometric sequence, determine the possible values of $x$.
+
+<details>
+    <summary> Solution </summary>
+    <p>
+    It's best practice to simplify the logarithms to the same base. Let's set all the bases to 2.
+    </p>
+    <p>
+    For the second term:
+    $$1+\log_4x = 1 + \frac{\log_2 x}{\log_2 4} = 1 + \frac{\log_2 x}{2} = 1+\frac{1}{2}\log_2x$$
+    For the third term:
+    $$\log_8 4x=\frac{\log_2 4x}{\log_2 8} = \frac{\log_2 4 + \log_2 x}{3} = \frac{2}{3} + \frac{\log_2 x}{3}$$
+    </p>
+    <p>
+    To keep things cleaner in our solution, let's substitute $\log_2 x = y$.
+    Since the three terms are consecutive terms in a geometric sequence, we can then use our geometric mean.
+    $$
+    \begin{align*}
+        \frac{\frac{2}{3} + \frac{y}{3}}{1 + \frac{y}{2}} &= \frac{1 + \frac{y}{2}}{y}\\
+        y\left(\frac{2}{3} + \frac{y}{3}\right) &= \left(1+\frac{y}{2}\right)^2\\
+        \frac{2}{3}y + \frac{y^2}{3} &= 1 + y + \frac{1}{4}y^2\\
+        8y + 4y^2 &= 12 + 12y + 3y^2\\
+        y^2 - 4y - 12 &=0\\
+        (y-6)(y+2)&=0
+    \end{align*}
+    $$
+    </p>
+    <p>
+        From this quadratic, we see that $y= \log_2 x = 6$ or $-2$.
+        <br>
+        $\therefore x = 2^6 = 64$ or $x= 2^{-2}= \frac{1}{4}$
+    </p>
+    <b>QED</b>
+</details>
+
 
 ##### 2004 AMC 10A P18
 
 ##### 2010 AMC 10B P16
+
+AMC problems and solutions coming soon.

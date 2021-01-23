@@ -3,3 +3,10 @@ mjx-container {
   overflow-y: hidden;
   max-width: 100%;
 }
+
+details{
+    padding-left:1%;
+    border-left: 2px solid $link-color;
+    height: auto;
+    background-color: $sidebar-color;
+}
