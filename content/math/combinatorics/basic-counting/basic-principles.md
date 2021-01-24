@@ -53,7 +53,7 @@ Or, in a more set theoretic notation,
 
 $$|S_1 \times S_2 \times \dots \times S_k| = |S_1| \times |S_2| \times \dots \times |S_k| $$ 
 
-One thing to take note of is that the multiplication principle is only directly applicable when the events are **independent** (the outcome of one event won't affect the outcomes of another event). If the events are not indenendent then we need to take that into consideration when counting our outcomes.
+One thing to take note of is that the multiplication principle is only directly applicable when the events are **independent** (the outcome of one event won't affect the outcomes of another event). If the events are not independent then we need to take that into consideration when counting our outcomes.
 
 Let's look at some problems involving the multiplication principle. 
 
