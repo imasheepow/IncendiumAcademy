@@ -3,6 +3,7 @@ layout: lesson
 author: Andy Cai
 title: Nucleophiles, Electrophiles and Arrow Pushing Notation
 parent: Organic Chemistry
+grand_parent: Chemistry
 ---
 
 Chemistry is all about atoms, molecules, and their interactions. In this lesson, we will be quantifying some of these interactions, specifically in regards to organic chemistry. 

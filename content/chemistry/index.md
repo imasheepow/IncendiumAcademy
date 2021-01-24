@@ -4,5 +4,5 @@ title: Chemistry
 nav_order: 0
 nav_exclude: true
 ---
-Welcome to our chemistry guides.
+Welcome to our chemistry guide.
 
