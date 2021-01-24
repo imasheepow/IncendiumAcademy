@@ -2,23 +2,23 @@
 layout: lesson
 author: Andy Cai
 title: Nucleophiles, Electrophiles and Arrow Pushing Notation
-parent: Organic Chemistry
-grand_parent: Chemistry
+parent: Introduction
+grand_parent: Organic Chemistry
 ---
 
 Chemistry is all about atoms, molecules, and their interactions. In this lesson, we will be quantifying some of these interactions, specifically in regards to organic chemistry. 
 
 ## Introduction
 
-Reactions are the result of the movement of electrons. In inorganic chemistry, you may have seen this occur during the formation of an ionic compound. For example, in the formation of calcium oxide:![CaO](https://i.ibb.co/YTN80sg/Ca-O-noarrow.png)
+Reactions are the result of the movement of electrons. In inorganic chemistry, you may have seen this occur during the formation of an ionic compound. For example, in the formation of calcium oxide:![CaO](https://cdn.discordapp.com/attachments/655433154978381864/802753866453876784/CaO_noarrow.png)
 
 In this case, two electrons are completely transferred from calcium to oxygen (ignore the fact that oxygen wouldn't occur as a single atom for now). In chemistry, we represent these interactions in more detail using something known as **arrow pushing notation**.
 
-In this case, this electron transfer is represented using a arrow from calcium to oxygen:![CaO](https://i.ibb.co/FHPw3nr/CaO.png)	
+In this case, this electron transfer is represented using a arrow from calcium to oxygen:![CaO](https://cdn.discordapp.com/attachments/655433154978381864/802753864422916106/CaO.png)	
 
 The notation is very easy to understand: simply draw an arrow from the electron source to the electron destination. In this case, the electron source is calcium, and the electron destination is oxygen. The arrow-head represents the number of electrons transferred. A double arrowhead represents 2 electrons, and a single arrowhead represents 1 electron. We will also introduce some notation here: **nucleophiles** are the electron sources, and **electrophiles** are electron destinations. If you've done Lewis acids and bases before, then you've also seen these as Lewis bases and Lewis acids, respectively.
 
-![550px-Curved_arrow_electron_pair.svg](https://i.ibb.co/8sm7G2T/550px-Curved-arrow-electron-pair-svg.png) ![550px-Curved_arrow_single_electron.svg](https://i.ibb.co/vkVryKH/550px-Curved-arrow-single-electron-svg.png)
+![550px-Curved_arrow_electron_pair.svg](https://cdn.discordapp.com/attachments/655433154978381864/802753860195450880/550px-Curved_arrow_electron_pair.svg.png) ![550px-Curved_arrow_single_electron.svg](https://cdn.discordapp.com/attachments/655433154978381864/802753862019579904/550px-Curved_arrow_single_electron.svg.png)
 
 In organic chemistry, the electronegativity difference between atoms is generally too small for ionic bonding. This means electrons are shared in a bond, rather than given. 
 
@@ -32,11 +32,11 @@ In this interaction, an electron pair is transferred from one atom to another to
 
 - Draw an arrow directly from the electron donating atom to the electron accepting atom
 
-  <img src="https://i.ibb.co/0fbpc8Y/H3O.png" alt="H3O+" style="zoom:50%;" />
+  <img src="https://cdn.discordapp.com/attachments/655433154978381864/802753870996439040/H3O.png" alt="H3O+" style="zoom:50%;" />
 
 - Draw an arrow from the electron donating atom to the midpoint of the two atoms to emphasize the formation of a bond
 
-  <img src="https://i.ibb.co/28Y8Bdc/H3O-2.png" alt="H3O+ 2" style="zoom:50%;" />
+  <img src="https://cdn.discordapp.com/attachments/655433154978381864/802753868995756052/H3O_2.png" alt="H3O+ 2" style="zoom:50%;" />
 
 Both are used in modern chemistry, but for the purposes of this lesson we will be drawing arrows directly between atoms.
 
@@ -44,39 +44,39 @@ Both are used in modern chemistry, but for the purposes of this lesson we will b
 
 In this interaction, an electron pair is transferred from the electron donor to the sigma bond between the electron donor and electron acceptor to form a pi bond. 
 
-<img src="https://i.ibb.co/vZgVJRW/PIBONDFORM.png" alt="PIBONDFORM" style="zoom:50%;" />
+<img src="https://cdn.discordapp.com/attachments/655433154978381864/802753875123765248/PIBONDFORM.png" alt="PIBONDFORM" style="zoom:50%;" />
 
 #### Sigma to Atom
 
 In this interaction, an electron pair originally used in a sigma bond is transferred to one of the atoms in the bond. 
 
-<img src="https://i.ibb.co/F69rTDp/HCl-Dissoc.png" alt="HClDissoc" style="zoom:50%;" />
+<img src="https://cdn.discordapp.com/attachments/655433154978381864/802753873357176832/HClDissoc.png" alt="HClDissoc" style="zoom:50%;" />
 
 We can also transfer the electrons to an atom outside of the bond, in which case it forms a sigma bond between the electron donating atom to the electron accepting atom. 
 
-<img src="https://i.ibb.co/C2nXTDQ/SIGBREAK2.png" alt="SIGBREAK2" style="zoom:50%;" />
+<img src="https://cdn.discordapp.com/attachments/655433154978381864/802754034875367474/SIGBREAK2.png" alt="SIGBREAK2" style="zoom:50%;" />
 
 #### Sigma to Sigma
 
 In this interaction, an electron pair originally used in a sigma bond is transferred to another sigma bond to create a pi bond, breaking the old sigma bond in the process.
 
-![sigmasigma](https://i.ibb.co/Lhg8wkV/sigmasigma.png)
+![sigmasigma](https://cdn.discordapp.com/attachments/655433154978381864/802754037245804584/sigmasigma.png)
 
 #### Pi to Atom
 
 In this interaction, an electron pair originally used in a pi bond is transferred to one of the atoms in the bond.
 
-<img src="https://i.ibb.co/f9h6rN2/PIBREAK.png" alt="PIBREAK" style="zoom:50%;" />
+<img src="https://cdn.discordapp.com/attachments/655433154978381864/802753877514256394/PIBREAK.png" alt="PIBREAK" style="zoom:50%;" />
 
 We can also transfer the pi electrons to an atom outside of the bond, in which case it forms a sigma bond between the electron donating atom to the electron accepting atom. 
 
-<img src="https://i.ibb.co/1LpDhbX/PIBREAK2.png" alt="PIBREAK2" style="zoom: 50%;" />
+<img src="https://cdn.discordapp.com/attachments/655433154978381864/802753879220813854/PIBREAK2.png" alt="PIBREAK2" style="zoom: 50%;" />
 
 #### Pi to Sigma
 
 In this interaction, an electron pair originally used in a pi bond is transferred to a sigma bond to create another pi bond. 
 
-<img src="https://i.ibb.co/jMZXDXM/PITRANSFER.png" alt="PITRANSFER" style="zoom:50%;" />
+<img src="https://cdn.discordapp.com/attachments/655433154978381864/802755292274098176/PITRANSFER.png" alt="PITRANSFER" style="zoom:50%;" />
 
 ## Predicting Electron Movement
 
@@ -102,7 +102,7 @@ If an atom has a negative charge, it will have more electrons and therefore have
 
 Using this knowledge, we can predict how some basic interactions will occur. For example, when these two species interact,
 
-<img src="https://i.ibb.co/XzdTrMv/Predict1.png" alt="Predict1" style="zoom:50%;" />
+<img src="https://cdn.discordapp.com/attachments/655433154978381864/802754026613112891/Predict1.png" alt="Predict1" style="zoom:50%;" />
 
 We know that the hydroxide oxygen will be the nucleophile. This is because the hydroxide oxygen has a high electron density: it has a negative charge, is on the right side of the periodic table, and has more electropositive atoms bonded to it.
 
@@ -110,7 +110,7 @@ We also know that the positively charge carbon will be the electrophile: it has 
 
 Therefore, we can predict that electrons will move from the hydroxide oxygen to the positively charged carbon. 
 
-<img src="https://i.ibb.co/yQFYwmS/Predict-A1.png" alt="PredictA1" style="zoom:50%;" />
+<img src="https://cdn.discordapp.com/attachments/655433154978381864/802754030807154708/PredictA1.png" alt="PredictA1" style="zoom:50%;" />
 
 ### Breaking Bonds
 
@@ -118,8 +118,8 @@ When breaking bonds, we follow a different set of rules. Instead of utilizing el
 
 Utilizing this rule, we can predict the result when a bond breaks. For example, for the following compound:
 
-<img src="https://i.ibb.co/Sm7Ch6Z/Predict2.png" alt="Predict2" style="zoom:50%;" />
+<img src="https://cdn.discordapp.com/attachments/655433154978381864/802754028571852840/Predict2.png" alt="Predict2" style="zoom:50%;" />
 
 If we break the covalent bond, the electrons will prefer moving to the chlorine as it is more electronegative. Therefore, the result will be:
 
-<img src="https://i.ibb.co/r356zFL/Predict-A2.png" alt="PredictA2" style="zoom:50%;" />
+<img src="https://cdn.discordapp.com/attachments/655433154978381864/802754032740466688/PredictA2.png" alt="PredictA2" style="zoom:50%;" />
